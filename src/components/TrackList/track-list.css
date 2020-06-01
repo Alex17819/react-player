@@ -1,0 +1,7 @@
+.track-list{
+    height: calc(100vh-50px);
+    margin-left: auto;
+    width: 60vw;
+    padding: 20px;
+    padding-top: 30px;
+}

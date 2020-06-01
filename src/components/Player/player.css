@@ -1,0 +1,7 @@
+.player {
+    height: calc(100vh-50px);
+    margin-right: auto;
+    width: 40vw;
+    padding: 20px;
+    padding-top: 30px;
+}
