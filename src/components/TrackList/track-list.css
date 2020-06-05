@@ -5,3 +5,28 @@
     padding: 20px;
     padding-top: 30px;
 }
+.header{
+    font-size: 2em;
+    width: 80%;
+    margin: auto;
+    color: wheat;
+    margin-bottom: 20px;
+}
+.add-track-btn{ 
+    background-color: rgb(104, 29, 29);
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+    width: 150px;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.25em;
+    border-radius: 3px;
+    color: white;
+    line-height: 1em;
+    padding-bottom:5px;
+}
+.add-track-btn:hover{
+    cursor: pointer;
+    /* transform: translateY(4px); */
+}

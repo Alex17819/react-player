@@ -5,3 +5,79 @@
     padding: 20px;
     padding-top: 30px;
 }
+.player-image img,
+.player-header {
+    width: 400px;
+    height: 400px;
+    border-radius: 16px;
+    position: relative;
+    margin: auto;
+}
+.player-image{
+    position: absolute;
+}
+.player-control-gradient{
+    background: linear-gradient(rgba(0, 0, 0, 0), black);
+    position: absolute;
+    height: 30%;
+    border-radius: 16px;
+    width: 400px;
+    bottom: 0;
+}
+.player-control-gradient > div:first-child{
+    position: relative;
+    height: 100%;   
+}
+.player-control{
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 1.2em;
+}
+.player-track-info{
+    margin-top: -10px;
+    align-self: center;
+}
+.player-track-info-details{
+    display: flex;
+    justify-content: space-between;
+}
+.player-button{
+    fill: white;
+    width: 50px;
+    align-self: center;
+    margin: 0 15px 0 15px;
+}
+.track-info{
+    width: 400px;
+    margin: auto;
+    font-size: 1.5em;
+    color: wheat;
+    margin-top: 2em;
+}
+.pause-button{
+    margin-left: 5px;
+}
+.track-info-content{
+    display: flex;
+    justify-content: space-between;
+}
+.player-track-time{
+    width: 60px;
+}
+.progress-bar {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    height: 5px;
+    width: 300px;
+    max-width: 100%;
+}
+.progress {
+    background: #363636;
+    height: 5px;
+    width: 70%;
+}

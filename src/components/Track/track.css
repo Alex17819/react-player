@@ -1,0 +1,29 @@
+.track{
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    height: 70px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    font-size: 1.25em;
+    border-radius: 3px;
+}
+.play-icon{
+    fill: wheat;
+    width: 2em;
+    margin-left: 10px;
+}
+.track-duration,
+.track-name{
+    color: white;
+    line-height: 1em;
+    padding-bottom:5px ;
+    align-self: center;
+}
+.track-name{
+    margin-left: 20px;
+}
+.track-duration{
+    margin-left: auto;
+    margin-right: 20px;
+}
